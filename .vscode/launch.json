@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Test",
+      "type": "go",
+      "env": {
+        //"GIN_MODE":"release",
+        "GO_ENVIRONMENT":"production",
+        "CACHE_CACHE_TEST_CONFIG_ENDPOINT":"cd495fa505cdbce2d997.8ucrsf.cfg.use1.cache.amazonaws.com:11211",//adecuado para el descubrimiento automático de nodos (el cliente debe admitir esta función).
+        "CACHE_CACHE_TEST_NODES_ENDPOINT":"cd495fa505cdbce2d997.8ucrsf.0001.use1.cache.amazonaws.com:11211,cd495fa505cdbce2d997.8ucrsf.0002.use1.cache.amazonaws.com:11211,cd495fa505cdbce2d997.8ucrsf.0003.use1.cache.amazonaws.com: 11211",//expone los extremos de los nodos, en este caso se pierde flexibilidad ya que ante cualquier cambio en la infraestructura habrá que hacer un Blue Green.
+        "EXPIRATION_ITEM":"15"
+      }
+    }
+  ]
+}

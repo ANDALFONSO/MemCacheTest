@@ -1,0 +1,13 @@
+mode: set
+memcache/service/MemCacheService.go:27.37,33.2 3 1
+memcache/service/MemCacheService.go:35.91,39.16 4 1
+memcache/service/MemCacheService.go:42.2,42.47 1 1
+memcache/service/MemCacheService.go:39.16,41.3 1 0
+memcache/service/MemCacheService.go:45.56,47.16 2 0
+memcache/service/MemCacheService.go:50.2,50.45 1 0
+memcache/service/MemCacheService.go:47.16,49.3 1 0
+memcache/service/MemCacheService.go:53.67,55.16 2 0
+memcache/service/MemCacheService.go:60.2,62.16 3 0
+memcache/service/MemCacheService.go:66.2,66.22 1 0
+memcache/service/MemCacheService.go:55.16,58.3 2 0
+memcache/service/MemCacheService.go:62.16,65.3 2 0
